@@ -23,5 +23,7 @@ public class CameraController : MonoBehaviour
         // funkcja Vector3.Lerp
         //p³ynnie przechodzi z pozycji pierwszego argumentu do drugiego w czasie trzeciego 
         transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime);
+        //
+        //smoothdamp dzia³¹ jak srpêzyna staraj¹ca siê doci¹gn¹c kamerê do was
     }
 }
